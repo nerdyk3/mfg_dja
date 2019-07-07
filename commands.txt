@@ -1,0 +1,35 @@
+commands:
+	mkdir
+	cd cd .. 
+	touch
+	rm -rf <file>
+	sudo apt-get update
+        sudo apt-get upgrade
+	pip >> pip3
+	curl -I -0 
+	sudo apt install <package name> -y  --noinput
+	ssh -i 22
+	to open editior >> subl
+	chmod 707 777 700
+	sudo -i
+	pipenv shell
+	pipenv 
+	
+
+django:
+	django-admin startproject <name>
+	python manage.py startapp <name>
+	python manage.py runserver <if ip then>
+	python manage.py makemigrations
+	python manage.py migrate	
+	python manage.py collectstatics
+
+
+github:
+	git add .
+	git status
+	git commit -m  "commit work"	
+	git push origin <branch name>
+	git branch <branch name>
+	git checkout <branch name>    "-f"
+ 	git fetch <branch name>
