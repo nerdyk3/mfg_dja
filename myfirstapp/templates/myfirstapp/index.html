@@ -1,0 +1,13 @@
+<html>
+<head>
+	<title>blog</title>
+</head>
+<body>
+	{%for i in blog_kun%}
+		<h1>{{i.Title}}</h1>
+		<h2>{{i.Description}}</h2>
+		<p>{{i.content}}</p>
+		<hr>
+		{%endfor%}
+</body>
+</html>
